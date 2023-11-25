@@ -1,0 +1,296 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+
+
+body {
+   font-family: 'Ubuntu', sans-serif;
+   color: #033D87;
+}
+
+
+h2 {
+   font-size: 38px;
+   color: #C4202D;
+   font-weight: bold;
+}
+
+
+h4 {
+   font-size: 18px;
+   font-weight: bold;
+}
+
+
+p {
+   font-size: 12px;
+}
+
+
+/* styles.css */
+
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+   flex-direction: row-reverse;
+   }
+}
+
+
+.nav-link {
+   color: #033D87;
+   font-weight: bold;
+   padding-right: 10px; /* Ajusta el espacio entre elementos según sea necesario */
+   margin-right: 10px; /* Ajusta el espacio entre elementos según sea necesario */
+   transition: color 0.5s ease; /* Agrega transición para el color */
+}
+
+
+.nav-link:hover {
+   color: #002855; /* Cambia el color a un tono más oscuro al hacer hover */
+   padding-right: 10px; /* Ajusta el espacio entre elementos según sea necesario */
+   margin-right: 10px; /* Ajusta el espacio entre elementos según sea necesario */
+}
+
+
+/* Cambiar el color de las tres barras del ícono del toggler a azul */
+.navbar-toggler-icon {
+   background-color: #fff; /* Cambia el color de fondo del ícono si es necesario */
+ }
+ /* Cambiar el color de las barras */
+.navbar-toggler-icon span {
+   background-color: #033D87; /* Cambia el color a tu preferencia */
+}
+
+
+
+
+/* styles.css */
+
+
+@keyframes changeFont {
+   0%, 100% {
+       font-family: 'Bungee', sans-serif;
+   }
+   20% {
+       font-family: 'Dancing Script', cursive;
+   }
+   40% {
+       font-family: 'Josefin Sans', sans-serif;
+   }
+   60% {
+       font-family: 'Caveat', cursive;
+   }
+   80% {
+       font-family: 'Raleway', sans-serif;
+   }
+}
+
+
+.fevochi-container {
+   display: flex;
+   width: 100vw;
+   box-sizing: border-box;
+   align-items: center;
+   margin-top: 25vw; /* Puedes ajustar el valor según sea necesario */
+}
+
+
+#somos {
+   font-size: 10vw;
+   font-weight: bold;
+   color: white;
+   margin-right: 10px; /* Espacio entre #Somos y FEVOCHI */
+}
+
+
+.fevochi {
+   font-size: 12vw;
+   font-weight: bold;
+   color: white;
+   animation: changeFont 5s infinite; /* Cambia la duración según tus preferencias */
+   animation-timing-function: linear;
+}
+
+
+ 
+.App {
+   text-align: center;
+}
+ .hero {
+   position: relative;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+}
+ 
+.hero img {
+   width: 100%;
+}
+
+
+.hero:before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(to bottom, rgba(3, 61, 135, 0.6), rgba(196, 32, 45, 0.6));
+   z-index: 1;
+}
+ .hero-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 100%;
+   transform: translate(-50%, -50%);
+   color: #fff;
+   font-size: 10vw;
+   font-weight: bold;
+   z-index: 2;
+}
+
+
+.hero-content span {
+   font-style: italic;
+}
+ .news-container, .event-container,
+.gallery-container, .card, .carousel, .sponsor-container {
+   margin: 0 auto; /* Centra todo horizontalmente */
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+
+
+
+/* Estilo para los botones con la clase "btn" */
+.btn {
+   background-color: #033D87; /* Color azul de la página web */
+   color: #fff; /* Color del texto en los botones, puedes ajustarlo según tus necesidades */
+   transition: background-color 0.5s ease; /* Transición suave */
+}
+ /* Estilo para los botones con la clase "btn" al pasar el ratón sobre ellos */
+.btn:hover {
+   background-color: #5073a8; /* Color más oscuro al hacer hover */
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+}
+
+
+
+
+/* Estilos para las imágenes de los patrocinadores */
+.sponsor-container img {
+   max-width: 20vw;
+   height: auto;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+ display: none;
+}
+
+
+
+
+.social-icons a svg {
+   transition: transform 0.3s ease-in-out;
+}
+ .social-icons a:hover svg {
+   transform: scale(1.2); /* Puedes ajustar el valor según tus preferencias */
+}
+ html {
+   scroll-behavior: smooth; /* Para el NavLink contacto */
+}
+
+
+
+
+/* Ajusta los colores de acuerdo a tus preferencias */
+.redes-sociales a {
+   color: #C4202D; /* Color inicial para los iconos (rojo) */
+   margin-right: 8px; /* Espacio entre los iconos */
+   font-size: 1.5rem; /* Tamaño inicial */
+   transition: all 0.3s ease; /* Transición suave de 0.3 segundos */
+}
+
+
+.card-text, .card-title {
+   color: #033D87;
+}
+
+
+/* Ajusta los colores de acuerdo a tus preferencias */
+.redes-sociales a:hover {
+   color: #033D87; /* Color azul para los textos y color inicial al hacer hover */
+}
+
+
+
+
+.news_link{
+
+
+       color: white;
+       font-weight: bold;
+       padding-right: 10px; /* Ajusta el espacio entre elementos según sea necesario */
+       margin-right: 10px; /* Ajusta el espacio entre elementos según sea necesario */
+       margin-left: 20px; /* Adjust this value as needed */
+       text-decoration: none; /* Removes the underline */
+}
+
+
+
+
+.center-gallery-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+
+
+
+
+
+
+
+
+
+.countdown-container {
+   border: 5px solid #033D87;
+   border-radius: 0.5rem;
+   padding: 10px;
+   margin-top: 10px;
+   animation: borderAnimation 2s infinite alternate;
+
+
+}
+
+
+.countdown-title {
+   color: #033D87;
+   animation: borderAnimation 2s infinite alternate;
+}
+
+
+ @keyframes borderAnimation {
+   0% {
+     border-color: #C4202D;
+     color: #C4202D;
+   }
+   100% {
+     border-color: #033D87;
+     color: #033D87;
+   }
+}
+ 
