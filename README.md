@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+Proyecto Semestral – Diseño de Software
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue desarrollado como parte del curso Diseño de Software, impartido durante el semestre [indica el semestre aquí] en la carrera de Ingeniería Civil Informática en la Universidad Adolfo Ibáñez.
+🧩 Objetivo del Proyecto
 
-## Available Scripts
+El objetivo del curso fue aprender los fundamentos del diseño y desarrollo web utilizando HTML, CSS, JavaScript y herramientas modernas relacionadas. Como proyecto final, desarrollamos una página web enfocada en Fevochi (Federación de Vóleibol de Chile), con el fin de mejorar su presencia digital y ofrecer una mejor experiencia para sus usuarios.
+🌐 Funcionalidades Principales
 
-In the project directory, you can run:
+    Página de inicio con información institucional
 
-### `npm start`
+    Calendario de torneos y eventos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Sección de noticias actualizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Registro y login de usuarios
 
-### `npm test`
+    Visualización de equipos y rankings
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠️ Tecnologías Utilizadas
 
-### `npm run build`
+    HTML5
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    CSS3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    JavaScript (vanilla)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    [Agrega aquí cualquier otra herramienta, como Bootstrap, algún API, librerías, etc.]
 
-### `npm run eject`
+🚀 Cómo ejecutar el proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+En el directorio del proyecto, puedes ejecutar:
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ejecuta la aplicación en modo desarrollo.
+Abre http://localhost:3000 para verla en tu navegador.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    La página se recargará automáticamente si realizas cambios en el código.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm run build
 
-## Learn More
+Compila la aplicación para producción en la carpeta build.
+Optimiza automáticamente la aplicación para su mejor rendimiento.
+📚 Aprendizajes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Durante este proyecto, reforzamos conceptos clave como:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Principios de diseño responsivo
 
-### Code Splitting
+    Manejo de DOM con JavaScript
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Separación entre estructura (HTML), estilos (CSS) y lógica (JS)
 
-### Analyzing the Bundle Size
+    Buenas prácticas de desarrollo front-end
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👨‍💻 Equipo de Desarrollo
 
-### Making a Progressive Web App
+    Valentina Rosello
+    Javiera Soto
+    Matias Ortiz
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📌 Nota
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto tiene fines académicos y fue desarrollado con fines de aprendizaje dentro del curso. No representa un producto oficial de Fevochi.
