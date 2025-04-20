@@ -22,9 +22,7 @@ El objetivo del curso fue aprender los fundamentos del diseño y desarrollo web 
 
     CSS3
 
-    JavaScript (vanilla)
-
-    [Agrega aquí cualquier otra herramienta, como Bootstrap, algún API, librerías, etc.]
+    JavaScript
 
 🚀 Cómo ejecutar el proyecto
 
